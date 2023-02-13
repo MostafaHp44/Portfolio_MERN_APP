@@ -1,0 +1,91 @@
+.allservices
+{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+
+.c1
+{
+  border-style:  dashed ;
+    padding: 20px;
+    
+}
+.c2
+{
+    border-style:  dashed ;
+    padding: 20px;
+    position: relative;
+    margin-top: 15em;
+}
+.c3
+{
+  border-style:  dashed ;
+  padding: 20px;
+    position: relative;
+    margin-top: 15em;
+}
+.c4
+{
+  border-style:  dashed ;
+  padding: 20px;
+    position: absolute;
+    margin-top: 13em;
+    margin-right: 2em;
+}
+.c1  >:nth-child(1)
+{
+    font-weight: bold;
+  font-size: 1rem;
+  -webkit-text-stroke: medium;
+}
+.c1  >:nth-child(2)
+{
+    font-weight: bold;
+  color: #4169E1;
+  font-size: 2rem;
+}
+.c2  >:nth-child(1)
+{
+    font-weight: bold;
+  font-size: 1rem;
+  -webkit-text-stroke: medium;
+}
+.c2 >:nth-child(2)
+{
+    font-weight: bold;
+  color: #4169E1;
+  font-size: 2rem;
+}
+.c3  >:nth-child(1)
+{
+    font-weight: bold;
+  font-size: 1rem;
+  -webkit-text-stroke: medium;
+}
+.c3  >:nth-child(2)
+{
+    font-weight: bold;
+  color: #4169E1;
+  font-size: 2rem;
+}
+.c4 >:nth-child(1)
+{
+    font-weight: bold;
+  font-size: 1rem;
+  -webkit-text-stroke: medium;
+}
+.c4 >:nth-child(2)
+{
+    font-weight: bold;
+  color: #4169E1;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .c1,.c2,.c3,.c4 {
+   min-width: 32em;
+  }
+}

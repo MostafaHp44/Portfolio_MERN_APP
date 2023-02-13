@@ -1,0 +1,13 @@
+
+  @media (min-width: 1050px) {
+    .burger-list {
+      
+        margin-left: 14rem;
+        list-style-type: none;
+        cursor: pointer;
+        display: none;
+    }
+}
+li{
+  color: black;
+}

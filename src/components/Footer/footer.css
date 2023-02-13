@@ -1,0 +1,39 @@
+p
+{
+    font-weight: bold;
+}
+.BigFooter
+{
+    position: relative;
+    align-items: center;
+    min-height: 210px;
+    background: #3c31dd;
+    margin-top: 20em;
+}
+.icnocolor
+{
+    color: aliceblue;
+}
+.texts
+{
+ position: absolute;
+margin-top: 10em;
+padding: 10px;
+}
+.Icons
+{
+    gap: 3em;
+    display: flex;
+    position: absolute;
+    margin-left: 51em;
+    margin-top: 11em;
+    width: 20em;
+}
+@media only screen and (max-width: 1200px) 
+{
+    .BigFooter
+    {
+        min-width: 76em;
+    }
+   
+}

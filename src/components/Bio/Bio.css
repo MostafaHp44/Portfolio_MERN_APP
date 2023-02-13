@@ -1,0 +1,112 @@
+*
+{
+    font-family: 'Dancing Script', cursive;
+}
+.bio-right
+{
+  position: absolute;
+  margin-left: 55em;
+}
+.BigBio
+{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.biotext
+{
+margin-top: 4em;
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+.biotext >:nth-child(1)
+{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.biotext >:nth-child(2)
+{
+  font-weight: bold;
+  color: #4169E1;
+  font-size: 3rem;
+  
+}
+.bio-left 
+{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 10rem;
+    gap: 5px;
+
+}
+bio-right
+{
+    flex: 1;
+    display: flex;
+
+}
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 25em;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #4169E1;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+.icons
+{
+  display: flex;
+  gap: 56px;
+  margin-left: 11px;
+  margin-top: 10px;
+}
+.biopic
+{
+  width: 20em;
+  margin-right: 4em;
+}
+@media only screen and (max-width: 1200px) {
+  .bio-right {
+    margin-left: 41em;
+  }
+}
+.pic
+{
+  width: 13em;
+  display: block;
+}
