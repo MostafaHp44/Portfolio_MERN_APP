@@ -29,7 +29,13 @@ const ContactUs = () => {
           Email:email,
           Subject:subject,
           Massage:massage
-        }).then(()=>{toast.success("Thnak's You Form is Send")
+        }).then(()=>{ 
+          toast.success("Thnak's You Form is Send")
+          setTimeout(function(){
+            window.location.reload();
+            window.scrollTo(0, 0);
+         }, 8000);
+         
       })
       }
       catch (error) 
