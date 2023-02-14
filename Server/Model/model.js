@@ -4,15 +4,24 @@ const mongoose=require('mongoose')
 const contactschema = mongoose.Schema({
     FullName:{
         type:String,
+        required: true
+
     },
     Email:{
-        type:String
+        type:String,
+        required: true
+
     },
     Subject:{
-        type:String
+        type:String,
+        required: true
+
+
     },
     Massage:{
-        type:String
+        type:String,
+        required: true
+
     }
 }) 
 module.exports= mongoose.model('users',contactschema)
