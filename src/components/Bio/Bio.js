@@ -28,7 +28,7 @@ const Bio = () => {
 
       <div className='icons'>
           <a href='https://github.com/MostafaHp44'><FontAwesomeIcon icon="fa-brands fa-github" /></a>  
-          <a href='https://www.linkedin.com/in/mostafa-hp-125248119/'><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a>
+          <a href='https://www.linkedin.com/in/mostafa-amine-125248119//'><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a>
           <a href=''><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
          
           </div>
